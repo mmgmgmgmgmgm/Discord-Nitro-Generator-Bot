@@ -3,7 +3,7 @@ import string
 import random
 import discord
 
-print("Made by Dhruv Jadav#1620")
+print("Made by idex")
 print("Contact me for more source codes")
 client = discord.Client()
 
@@ -27,6 +27,12 @@ print(Generator2)
 async def on_message(message):
    if message.content.startswith('$nitro'): 
      await message.channel.send(Link + Generator2)
- 
+     await message.channel.send(Link + Generator2)
+     await message.channel.send(Link + Generator2)
+     await message.channel.send(Link + Generator2)
+     await message.channel.send(Link + Generator2)
+     await message.channel.send(Link + Generator2)
+     await message.channel.send(Link + Generator2)
+        
 client.run('Bot_Token_Here')
 # Bot by Dhruv Jadav#1620
